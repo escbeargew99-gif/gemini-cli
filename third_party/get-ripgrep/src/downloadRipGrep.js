@@ -121,3 +121,4 @@ export const downloadRipGrep = async (binPath = BIN_PATH) => {
     throw new VError(`Invalid downloadPath ${downloadPath}`)
   }
 }
+
