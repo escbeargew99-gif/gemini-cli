@@ -273,3 +273,4 @@ runs:
       run: |
         echo "Cleaning up release branch ${{ steps.release_branch.outputs.BRANCH_NAME }}..."
         git push origin --delete "${{ steps.release_branch.outputs.BRANCH_NAME }}"
+
