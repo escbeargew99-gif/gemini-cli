@@ -15,3 +15,4 @@ export const rgPath = join(
   'bin',
   `rg${process.platform === 'win32' ? '.exe' : ''}`,
 )
+
