@@ -31,3 +31,4 @@ runs:
           is_dry_run="false"
         fi
         echo "is_dry_run=${is_dry_run}" >> "${GITHUB_OUTPUT}"
+
