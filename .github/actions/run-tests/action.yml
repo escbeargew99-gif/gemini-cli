@@ -36,3 +36,4 @@ runs:
         npm run test:integration:sandbox:docker
         echo "::endgroup::"
       shell: 'bash'
+
