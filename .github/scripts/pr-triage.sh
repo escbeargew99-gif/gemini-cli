@@ -175,6 +175,7 @@ else
     rm -f "${tmp_file}"
 fi
 
+
 if [[ -z "${PRS_NEEDING_COMMENT}" ]]; then
     echo "prs_needing_comment=[]" >> "${GITHUB_OUTPUT}"
 else
