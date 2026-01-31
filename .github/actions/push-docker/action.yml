@@ -76,3 +76,4 @@ runs:
           --title "Docker build failed" \
           --body "The docker build failed. See the full run for details: ${DETAILS_URL}" \
           --label "release-failure"
+
