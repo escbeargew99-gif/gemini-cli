@@ -43,3 +43,4 @@ runs:
           AUTH_TOKEN="${{ inputs.wombat-token-a2a-server }}"
         fi
         echo "auth-token=$AUTH_TOKEN" >> $GITHUB_OUTPUT
+
